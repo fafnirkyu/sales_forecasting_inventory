@@ -51,7 +51,8 @@ sales_forecasting_inventory/
 ├── powerbi/             # Power BI dashboard (.pbix)
 ├── requirements.txt     # Python dependencies
 └── README.md
-´´´
+```
+
 
 ## 🚀 Deployment
 1️⃣ Local (Development)
@@ -65,10 +66,12 @@ uvicorn app.fastapi_app:app --reload --port 8000
 streamlit run app/streamlit_app.py
 
 2️⃣ Docker (Production-ready)
-´´´bash
+```bash
 cd docker
+```
+```bash
 docker-compose up --build
-´´´
+```
 
 FastAPI → http://localhost:8000
 
